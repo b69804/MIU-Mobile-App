@@ -1,0 +1,78 @@
+/*
+ Matthew Ashton
+ MUI 1308 Project 1
+ CSS Style sheet for Web App
+ */
+
+
+
+body{
+    background: #F1F3EC;
+}
+
+#HomeTeamPNG{
+    margin: 0;
+}
+   
+a:hover{color:blue;}
+
+legend {
+    color: #003963;
+    background: #F1F3EC;
+    font-size: 20px;
+    font-weight: bold;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+h1{
+    margin-bottom: 10px;
+    color: #000000;
+    font-family: Verdana, Geneva, sans-serif;
+    font-size: 26px;
+}
+
+#CTA{
+    margin-bottom: 20px;
+    padding: 0px;
+}
+
+#browse{
+    margin: 0px;
+}
+
+img{
+    margin: 0px;
+}
+
+
+ul{
+    margin-bottom: 3px;
+    padding-left: 15px;
+    text-align: left;
+}
+
+li {
+    padding-left: 0px;
+    font-size: 14px;
+    font-family: Verdana, Geneva, sans-serif;
+}
+
+fieldset {
+    padding: 5px;
+    color: #000000;   
+}
+
+#search-basic{
+    margin-top: 20px;
+    
+}
+input{
+    margin-bottom: 15px;
+    color: black;
+}
+
+input.hasFocus{
+    border: 2px solid #B22222
+}
+
+

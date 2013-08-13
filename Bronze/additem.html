@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<!--
+Matthew Ashton
+VFW Project 4
+VFW 1306 /-->
+
+
+<html>
+<head>
+    <meta charset="utf-8" />
+    <meta name="description" content="Watching Sports Made Easy" />
+    <meta name="keywords" content="Sports, lists, favorite sports, loves sports" />
+    <meta name="robots" content="index, follow" />
+    <meta name="viewport" content="user-scalable=no, width=device-width" />
+    <meta name="viewport" content="target-densitydpi=device-dpi" 
+    <meta name="HandheldFriendly" content="True" />
+    <meta name="MobileOptimized" content="320" />
+    <title>Add Your Next Game</title>
+    <link href="css/MainCSS.css" rel="stylesheet" type="text/css" />
+    
+
+</head>
+<body>
+    <header>
+        <hgroup>    
+        <h1>Add Your Next Game</h1>
+        </hgroup>  
+    </header>
+    <nav>
+        
+    </nav>
+    <form action="#" method="post" id="gameForm">
+        <fieldset>
+            <legend>Game Information</legend>
+            <ul id="errors"></ul>
+            <ul id=fieldInputs>
+                <li><label for="gameName">Game Name:</label><input type="text" id="gameName" /></li>
+                <li><label for="homeTeam">Home Team:</label><input type="text" id="homeTeam" /></li>
+                <li><label for="awayTeam">Away Team:</label><input type="text" id="awayTeam" /></li>
+                <li id="select"><label for="sportType">What Sport Is It?</label></li>
+                <li><label for="otherField">If Other, Please Describe Here:</label><textarea id="otherField"></textarea></li>
+                <li><label for="favTeam">Is Your Favorite Team Playing?</label>
+                    <ul>
+                        <li><input type="radio" value="Yes" id="Yes" name="Yes" /><label for="Yes">Yes</label></li>
+                        <li><input type="radio" value="No" id="No" name="Yes" /><label for="Yes">No</label></li>
+                    </ul>
+                </li>
+                <li><label for="priority">How Important Is This Game?</label> <input type="range" min="0" max="5" step="1" value="0" id="priority" /> </li>
+                <li><label for="dateOfGame">What Is The Date Of This Game?</label> <input type="date" id="dateOfGame" /></li>
+                <li><label for="winningTeam">Who Do You Want To Win?</label><input type="text" id="winningTeam" /></li>
+                <li><input type="hidden" value="dateEntered" /></li>
+            </ul>
+            <input type="button" value="Add Game to Watch List!" id="button" /><br />
+        </fieldset>
+        
+    </form>
+    
+    <div id="items"> </div>
+    
+    <button id="addNewGame" style="display:none;"> <a href="additem.html">Add New Game </a> </button>
+    <button id="clearData"> <a href="#"> Clear Stored Data </a> </button>
+    <button id="displayData"> <a href="#"> Display Data </a> </button>
+  <script src="js/json.js" type="text/javascript"></script>  
+  <script src="js/MainJS.js" type="text/javascript"></script>  
+    
+</body>   
+</html>
