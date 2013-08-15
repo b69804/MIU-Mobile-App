@@ -7,6 +7,9 @@
 
 #browseSportsTitle{text-align:center;}
 #whatToWatch{text-align:center;}
+#listOfSports{text-align:center;}
+
+
 body{
     background: #F1F3EC;
 }
@@ -20,16 +23,6 @@ legend {
     font-size: 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, sans-serif;
-}
-
-
-#CTA{
-    margin-bottom: 20px;
-    padding: 0px;
-}
-
-#browse{
-    margin: 0px;
 }
 
 img{
