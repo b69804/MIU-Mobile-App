@@ -4,7 +4,9 @@
  CSS Style sheet for Web App
  */
 
+#browseSports .ui-grid-a div{text-align:center;}
 
+#browseSportsTitle{text-align:center;}
 
 /*body{
     background: #F1F3EC;

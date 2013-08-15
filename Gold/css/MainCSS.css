@@ -5,14 +5,12 @@
  */
 
 
-
+#browseSportsTitle{text-align:center;}
+#whatToWatch{text-align:center;}
 body{
     background: #F1F3EC;
 }
 
-#HomeTeamPNG{
-    margin: 0;
-}
    
 a:hover{color:blue;}
 
@@ -24,12 +22,6 @@ legend {
     font-family: Verdana, Geneva, sans-serif;
 }
 
-h1{
-    margin-bottom: 10px;
-    color: #000000;
-    font-family: Verdana, Geneva, sans-serif;
-    font-size: 26px;
-}
 
 #CTA{
     margin-bottom: 20px;
@@ -71,8 +63,5 @@ input{
     color: black;
 }
 
-input.hasFocus{
-    border: 2px solid #B22222
-}
 
 
