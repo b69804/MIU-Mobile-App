@@ -64,11 +64,26 @@ var getData = function(){
  
 
 var deleteItem = function (){
-			
+	var ask = confirm("Are you absolutely sure you want to delete this game?");
+        if (ask) {
+            localStorage.removeItem(this.key);
+            window.location.reload();
+        }else{
+            alert("Game was NOT deleted!");}
+
 };
 					
 var clearLocal = function(){
-
+        if (localStorage.length == 0) {
+            alert("No data to clear!");
+        }else{
+            localStorage.clear();
+            alert("All games deleted!");
+            window.location.reload();
+            return false;
+        }
 };
+    
+
 
 

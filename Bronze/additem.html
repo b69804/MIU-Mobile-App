@@ -34,10 +34,10 @@ VFW 1306 /-->
             <legend>Game Information</legend>
             <ul id="errors"></ul>
             <ul id=fieldInputs>
-                <li><label for="gameName">Game Name:</label><input type="text" id="gameName" /></li>
-                <li><label for="homeTeam">Home Team:</label><input type="text" id="homeTeam" /></li>
-                <li><label for="awayTeam">Away Team:</label><input type="text" id="awayTeam" /></li>
-                <li id="select"><label for="sportType">What Sport Is It?</label></li>
+                <li><label for="gameName">Game Name:</label><label style="font-size: 8; color: #0000CC"> (Required)</label><input type="text" id="gameName" /></li>
+                <li><label for="homeTeam">Home Team:</label><label style="font-size: 8; color: #0000CC"> (Required)</label><input type="text" id="homeTeam" /></li>
+                <li><label for="awayTeam">Away Team:</label><label style="font-size: 8; color: #0000CC"> (Required)</label><input type="text" id="awayTeam" /></li>
+                <li id="select"><label for="sportType">What Sport Is It?</label><label style="font-size: 8; color: #0000CC"> (Required)</label></li>
                 <li><label for="otherField">If Other, Please Describe Here:</label><textarea id="otherField"></textarea></li>
                 <li><label for="favTeam">Is Your Favorite Team Playing?</label>
                     <ul>
@@ -46,7 +46,7 @@ VFW 1306 /-->
                     </ul>
                 </li>
                 <li><label for="priority">How Important Is This Game?</label> <input type="range" min="0" max="5" step="1" value="0" id="priority" /> </li>
-                <li><label for="dateOfGame">What Is The Date Of This Game?</label> <input type="date" id="dateOfGame" /></li>
+                <li><label for="dateOfGame">What Is The Date Of This Game?</label><label style="font-size: 8; color: #0000CC"> (Required)</label> <input type="date" id="dateOfGame" /></li>
                 <li><label for="winningTeam">Who Do You Want To Win?</label><input type="text" id="winningTeam" /></li>
                 <li><input type="hidden" value="dateEntered" /></li>
             </ul>

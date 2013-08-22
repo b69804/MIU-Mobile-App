@@ -8,8 +8,11 @@
 #browseSportsTitle{text-align:center;}
 #whatToWatch{text-align:center;}
 #listOfSports{text-align:center;}
-#gameErrorsLink{display:none;}
-
+#required1{font-size: 12px; color: #0000CC;}
+#required2{font-size: 12px; color: #0000CC;}
+#required3{font-size: 12px; color: #0000CC;}
+#required4{font-size: 12px; color: #0000CC;}
+#required5{font-size: 12px; color: #0000CC;}
 
 label.error{display:block; margin: 5px 0; color: red;}
 
