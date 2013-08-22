@@ -8,7 +8,10 @@
 #browseSportsTitle{text-align:center;}
 #whatToWatch{text-align:center;}
 #listOfSports{text-align:center;}
+#gameErrorsLink{display:none;}
 
+
+label.error{display:block; margin: 5px 0; color: red;}
 
 body{
     background: #F1F3EC;
@@ -17,13 +20,13 @@ body{
    
 a:hover{color:blue;}
 
-legend {
+/*legend {
     color: #003963;
     background: #F1F3EC;
     font-size: 20px;
     font-weight: bold;
     font-family: Verdana, Geneva, sans-serif;
-}
+}*/
 
 img{
     margin: 0px;
