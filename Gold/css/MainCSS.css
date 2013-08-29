@@ -6,13 +6,16 @@
 
 
 #browseSportsTitle{text-align:center;}
-#whatToWatch{text-align:center;}
+#whatToWatch{text-align:center; padding: 0;}
 #listOfSports{text-align:center;}
 #required1{font-size: 12px; color: #0000CC;}
 #required2{font-size: 12px; color: #0000CC;}
 #required3{font-size: 12px; color: #0000CC;}
 #required4{font-size: 12px; color: #0000CC;}
 #required5{font-size: 12px; color: #0000CC;}
+#rightBrand{text-align: right; }
+#browseLabels{text-align: center; font-size: 44px;}
+
 .center-wrapper{
     text-align: center;
 }
