@@ -16,22 +16,23 @@ MiU 1308 Mobile App GOLD-->
     <meta http-equiv="cleartype" content="on" />
     
     <title>Watching Sports Made Easy!</title>
+    <link rel="stylesheet" href="themes/miu1308_better.css" />
+    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile.structure-1.3.2.min.css" />
     
-    <link rel="stylesheet" href="http://code.jquery.com/mobile/1.3.2/jquery.mobile-1.3.2.min.css" />
     <link href="css/MainCSS.css" rel="stylesheet" type="text/css" />
     <script src="js/libs/modernizr.custom.min.js"></script>
     
 </head>
 
 <body>
-    <div data-role="page" id="titlePage" data-theme="b">
+    <div data-role="page" id="titlePage" data-theme="a">
         
         <div data-role="header">
-            <a href="index.html" data-add-back-btn="true" data-rel="back" data-icon="back" data-iconpos="notext"></a>
-            <h1>Watch Sports!</h1>
+            <a href="index.html" data-add-back-btn="true" data-rel="back" data-icon="back" data-iconpos="notext" data-pos="inline"></a>
+            <div class="center-wrapper"><img src="img/Brand.png" width="110px" height="36px"></div>
         </div>
         <div data-role="content">
-            <img src="img/CTA_Final.png" width="100%" height="100%"></a>
+            <img src="img/CTA_Final.png" width="100%" height="100%">
             <br>
             <br>
             <ul data-role="listview" data-inset="true" data-filter="true">
@@ -52,7 +53,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="browseSports" data-theme="b">
+    <div data-role="page" id="browseSports" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -105,7 +106,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="soccerGames">
+    <div data-role="page" id="soccerGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -132,7 +133,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="footballGames">
+    <div data-role="page" id="footballGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -159,7 +160,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-        <div data-role="page" id="baseballGames">
+        <div data-role="page" id="baseballGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -186,7 +187,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-        <div data-role="page" id="hockeyGames">
+        <div data-role="page" id="hockeyGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -213,7 +214,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
         
-    <div data-role="page" id="basketballGames">
+    <div data-role="page" id="basketballGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -240,7 +241,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="otherGames">
+    <div data-role="page" id="otherGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -267,7 +268,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="upcomingGames" data-theme="b">
+    <div data-role="page" id="upcomingGames" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -277,19 +278,19 @@ MiU 1308 Mobile App GOLD-->
         <div data-role="content">
             <div data-role="collapsible-set" data-inset="false" >
                 <h1 id="whatToWatch">What to Watch</h1>
-                <div data-role="collapsible" data-collapsed="false" data-theme="e">
+                <div data-role="collapsible" data-collapsed="false" data-theme="a">
                     <h3>This Week</h3>
                     <p>08/14 Diamondbacks vs Orioles</p>
                     <p>08/17 Swansea City vs Manchester United</p>
                     <p>08/17 Faber vs Alcantara</p>
                     <p>08/18 Crystal Palace vs Tottenham</p>
                 </div>
-                <div data-role="collapsible" data-collapsed="true" data-theme="e">
+                <div data-role="collapsible" data-collapsed="true" data-theme="a">
                     <h3>Next Week</h3>
                     <p>08/22 Giants vs Pirates</p>
                     <p>08/24 Bills vs Redskins</p>
                 </div>
-                <div data-role="collapsible" data-collapsed="true" data-theme="e">
+                <div data-role="collapsible" data-collapsed="true" data-theme="a">
                     <h3>Next Month</h3>
                     <p>09/05 Ravens vs Broncos</p>
                     <p>09/12 Jets vs Patriots</p>
@@ -310,7 +311,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="favesPlaying" >
+    <div data-role="page" id="favesPlaying" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -363,7 +364,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="MUFC">
+    <div data-role="page" id="MUFC" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -390,7 +391,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="rays">
+    <div data-role="page" id="rays" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -417,7 +418,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="galaxy">
+    <div data-role="page" id="galaxy" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -444,7 +445,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="psg">
+    <div data-role="page" id="psg" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -471,7 +472,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="about">
+    <div data-role="page" id="about" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -515,7 +516,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="aboutme">
+    <div data-role="page" id="aboutme" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -538,7 +539,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="github">
+    <div data-role="page" id="github" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -563,7 +564,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="GHpages">
+    <div data-role="page" id="GHpages" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -588,7 +589,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="credits">
+    <div data-role="page" id="credits" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>
@@ -612,7 +613,7 @@ MiU 1308 Mobile App GOLD-->
         </div>
     </div>
     
-    <div data-role="page" id="addGame">
+    <div data-role="page" id="addGame" data-theme="a">
         
         <div data-role="header">
             <a href="#" data-add-back-btn="true" data-rel="back" data-icon="back">Back</a>

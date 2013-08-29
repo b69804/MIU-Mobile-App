@@ -13,7 +13,13 @@
 #required3{font-size: 12px; color: #0000CC;}
 #required4{font-size: 12px; color: #0000CC;}
 #required5{font-size: 12px; color: #0000CC;}
+.center-wrapper{
+    text-align: center;
+}
 
+.center-wrapper*{
+    margin: 0 auto;
+}
 label.error{display:block; margin: 5px 0; color: red;}
 
 body{
